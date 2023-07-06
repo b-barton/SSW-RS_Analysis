@@ -7,6 +7,8 @@ __pycache__/
 *.png
 **/Figures*/
 
+/Plot_Fronts/momentum_balance*.py
+
 # C extensions
 *.so
 
