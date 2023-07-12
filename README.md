@@ -1,4 +1,5 @@
 # SSW-RS_Analysis
+[![DOI](https://zenodo.org/badge/663140229.svg)](https://zenodo.org/badge/latestdoi/663140229)
 
 Scripts to analyse the Scottish Shelf Water - Reanalysis Service by Benjamin I. Barton (NOC). https://sites.google.com/view/ssw-rs/home
 
