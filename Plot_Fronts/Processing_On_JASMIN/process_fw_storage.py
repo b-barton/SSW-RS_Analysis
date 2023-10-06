@@ -135,7 +135,7 @@ fw_volume = np.ma.zeros((len(fn) * 10)) - 999
 delta_fw_vol = np.ma.zeros((len(fn) * 10)) - 999
 date_list = np.zeros((len(fn) * 10), dtype=object) - 999
 c = 0
-s_ref = 36
+s_ref = 35
 
 now = dt.datetime.now()
 
@@ -180,6 +180,6 @@ delta_fw_vol = delta_fw_vol[0:c]
 
 
 
-np.savez(out_dir + 'fw_volume.npz', date_list=date_list, fw_volume=fw_volume, delta_fw_vol=delta_fw_vol)
+np.savez(out_dir + 'fw_volume_35.npz', date_list=date_list, fw_volume=fw_volume, delta_fw_vol=delta_fw_vol)
 
 

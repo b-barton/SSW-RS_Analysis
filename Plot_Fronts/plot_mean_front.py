@@ -55,7 +55,7 @@ mean_temp = np.ma.mean(temp, axis=0)
 mean_sal = np.ma.mean(sal, axis=0)
 temp = None
 sal = None
-s_ref = 36
+s_ref = 35
 mean_fc = (s_ref - mean_sal ) / s_ref
 
 # Distance

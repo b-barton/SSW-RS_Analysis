@@ -204,7 +204,7 @@ def calc_bivar_uv(ua, va, date, lonc, latc, triangles, out_dir, fig_name,ax=[]):
       grid_v = interpolator_v(lon_g, lat_g)
       grid_lw = (grid_u ** 2 + grid_v**2) ** 0.5
 
-      ax.streamplot(xg, yg, grid_u, grid_v, density=(2, 4), color='k', linewidth=grid_lw, arrowsize=1.5, zorder=102)
+      ax.streamplot(xg, yg, grid_u, grid_v, density=(1, 2), color='k', linewidth=grid_lw, arrowsize=1, zorder=102)
 
 
   if len(ax) == 0:

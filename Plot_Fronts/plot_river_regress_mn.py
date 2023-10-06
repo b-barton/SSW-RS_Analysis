@@ -242,11 +242,11 @@ if one:
   cax1 = fig1.add_axes([0.87, 0.3, 0.01, 0.4])
 
 else:
-  fig1 = plt.figure(figsize=(10, 6))  # size in inches
-  ax1 = fig1.add_axes([0.05, 0.1, 0.35, 0.8])
-  ax2 = fig1.add_axes([0.55, 0.1, 0.35, 0.8])
-  cax1 = fig1.add_axes([0.41, 0.3, 0.01, 0.4])
-  cax2 = fig1.add_axes([0.91, 0.3, 0.01, 0.4])
+  fig1 = plt.figure(figsize=(8, 14))  # size in inches
+  ax1 = fig1.add_axes([0.05, 0.8, 0.35, 0.17])
+  ax2 = fig1.add_axes([0.525, 0.8, 0.35, 0.17])
+  cax1 = fig1.add_axes([0.41, 0.8, 0.01, 0.17])
+  cax2 = fig1.add_axes([0.91, 0.8, 0.01, 0.17])
 
 if one == 0:
 
